@@ -1,0 +1,96 @@
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 24px;
+  position: absolute;
+  width: 1200px;
+  height: 481px;
+  left: 120px;
+  top: 643px;
+}
+.contentTitle {
+  width: 325px;
+  height: 38px;
+  padding-top: 10px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 38px;
+  /* identical to box height */
+
+  color: #000000;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.productBox {
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  align-items: center;
+  padding: 4px 8px;
+  gap: 8px;
+  left: 978px;
+  width: 104px;
+  height: 32px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+.likeButton {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 4px 8px;
+  gap: 10px;
+  position: absolute;
+
+  padding-right: 120px;
+  width: 106px;
+  height: 27px;
+  left: 1094px;
+  background: #0059bc;
+  border-radius: 4px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+.likesTitle {
+  width: 90px;
+  height: 19px;
+  
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  /* identical to box height */
+
+  color: #ffffff;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.cards{
+    display: inline-flex;
+    list-style: none;
+    text-decoration: none;
+    padding: 12px;
+}

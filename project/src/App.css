@@ -1,0 +1,16 @@
+:root{
+  --dark-blue-color:#00254F;
+  --blue-color:#0059BC;
+  --light-color:#F4F5F6;
+  
+}
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+body{
+  margin: 0;
+  padding: 0;
+}

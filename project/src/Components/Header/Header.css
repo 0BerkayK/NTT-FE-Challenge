@@ -1,0 +1,20 @@
+.searchInput {
+  box-sizing: border-box;
+  width: 603px;
+  height: 40px;
+  border: 1px solid #89919a;
+  border-radius: 4px;
+}
+.searchButton {
+  width: 110px;
+  height: 40px;
+  background: #0059bc;
+  border-radius: 4px;
+  border: none;
+}
+
+.header{
+  padding-top: 25px;
+  padding-left: 120px;
+}
+
